@@ -1,0 +1,52 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-image: url(../images/Sharp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1920px;
+  height: 1080px;
+}
+
+.header {
+  margin-top: 354px;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 589px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: -0.8999999761581421px;
+  text-align: center;
+  color: #ffffff;
+}
+.header p:last-child {
+  margin-left: 360px;
+  margin-right: 360px;
+ margin-bottom: 40px;
+  padding-top: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  text-align: center;
+}
+.header button {
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 32px;
+    background-color: #094BAC;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  border: #094BAC;
+}

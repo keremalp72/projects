@@ -1,0 +1,104 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+
+.header {
+  width: 1440px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+  clear: both;
+}
+.header__logo,
+.header__nav,
+.header__icons {
+  float: left;
+}
+
+.header__logo {
+  width: 69px;
+}
+
+.header__nav {
+  width: calc(100% - 157px);
+  text-align: center;
+  a {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #212121;
+    text-decoration: none;
+    margin-right: 40px;
+
+    & :last-child {
+      margin-right: 0;
+    }
+    & :hover {
+      color: green;
+    }
+    & :active {
+      color: red;
+    }
+  }
+}
+:first-child :last-child :nth-child() .header__icons {
+  width: 84px;
+  height: 24px;
+  gap: 40px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  h1{
+    padding-right:286px ;
+    margin-top: 80px;
+    font-size: 40px;
+    letter-spacing: -0.4px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 28px;
+  }
+}
+.author-info{ 
+  padding-bottom: 17px;
+  display: flex;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+  img{
+padding-right: 12px;
+  }
+  span{
+    line-height: 28px;
+  }
+}
+.blog-image{
+  img{
+   padding-top: 20px;
+  }
+}
+ 
+
